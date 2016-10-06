@@ -9,11 +9,11 @@
 }
 alert(fibonacci(10));*/
 
-var n = 15;
-var fibonacci = [0, 1];
+var n = 20;
+var fibonacci = [1, 2];
 for (i = 2; i < n; i ++) {
     fibonacci [i] = fibonacci[i-1] + fibonacci[i-2];
     }
-    console.log(fibonacci.slice(0,n));
+alert(fibonacci.slice(0,n));
 
 
